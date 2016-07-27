@@ -1,2 +1,3 @@
-# whistlepost.github.io
-Whistlepost website
+# Whistlepost Designs
+
+Digital content production and publishing.
