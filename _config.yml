@@ -27,6 +27,12 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap  
 exclude:
   - Gemfile
   - Gemfile.lock
+
+##set this to enable google analytics
+ga_id: UA-402774-12
+ga_domain: whistlepost.org

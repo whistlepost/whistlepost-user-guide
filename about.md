@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Whistlepost <= About
+title: About
 permalink: /about/
 ---
 
