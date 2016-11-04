@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting started!"
 date:   2016-11-04 05:05:26 +0000
-categories: install publish
+categories: beginner
 ---
 There are multiple options for installing and maintaining a Whistlepost platform.
 
