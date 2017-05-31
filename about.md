@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Whistlepost is a Digital publishing platform based on [Apache Sling].
+*Mission Statement:* To provide Open Source products and support services to digital content producers.
 
 [Apache Sling]: http://sling.apache.org
