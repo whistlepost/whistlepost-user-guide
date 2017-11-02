@@ -4,18 +4,21 @@ title:  "Getting started!"
 date:   2016-11-04 05:05:26 +0000
 categories: beginner
 ---
-There are multiple options for installing and maintaining a Whistlepost platform.
 
-## Containerisation
+[Lazybones]: https://github.com/pledbrook/lazybones
+[SDKMAN]: http://sdkman.io/
 
-The recommended approach for a Whistlepost development environment is to use [Docker]
+Whistlepost provides a [Lazybones] project template that is probably the simplest way to create a new Whistlepost site.
+The following steps outline how to use it:
 
+1. Install [Lazybones] via [SDKMAN]:
 
-## Build from source
+	```$ curl -s "https://get.sdkman.io" | bash && sdk install lazybones```
 
-You can clone the [Git repository] and build from source using the following command:
+1. Include the Whistlepost repository in configuration:
 
-    $ ./gradlew build
+	```$ lazybones set bintrayRepositories = [micronode/whistlepost, pledbrook/lazybones-templates]```
 
-[Docker]: http://docker.io
-[Git repository]: https://github.com/micronode/whistlepost
+1. Create a new site skeleton using the Whistlepost template:
+
+	```$ lazybones create whistlepost-site <site directory>```
