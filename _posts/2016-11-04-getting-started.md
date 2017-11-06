@@ -14,6 +14,7 @@ The following steps outline how to use it:
 1. Install [Lazybones] via [SDKMAN]:
 
 	```$ curl -s "https://get.sdkman.io" | bash```
+	
 	```$ source "$HOME/.sdkman/bin/sdkman-init.sh" && sdk install lazybones```
 
 1. Include the Whistlepost repository in configuration:
