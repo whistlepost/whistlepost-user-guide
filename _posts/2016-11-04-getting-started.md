@@ -24,3 +24,9 @@ The following steps outline how to use it:
 1. Create a new site skeleton using the Whistlepost template:
 
 	```$ lazybones create whistlepost-site <site directory>```
+
+1. Build and run your new site in Docker:
+
+	```$ ./gradlew buildDocker && docker run --rm -p 8080:8080 <projectId>```
+
+1. Open site in browser: `http://localhost:8080/<projectId>`
