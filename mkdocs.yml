@@ -1,7 +1,25 @@
 site_name: Whistlepost
+site_url: https://www.whistlepost.org
 theme:
   name: material
   favicon: images/favicon.png
   logo: images/logo-50.png
+  features:
+    - tabs
 repo_url: https://github.com/micronode/whistlepost
 repo_name: micronode/whistlepost
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/benfortuna
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/benfortuna
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/micronode
+nav:
+  - Home:
+      - Introduction: index.md
+  - Extensions:
+      - Overview: extensions/index.md
+  - Scripting:
+      - Overview: scripting/index.md
