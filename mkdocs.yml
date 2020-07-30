@@ -19,9 +19,9 @@ extra:
 nav:
   - Home:
       - Introduction: index.md
+      - Authoring: author.md
+      - Publishing: publish.md
   - Extensions:
       - Overview: extensions/index.md
-  - Scripting:
-      - Overview: scripting/index.md
   - Releases:
       - Release Notes: releases/index.md
