@@ -23,3 +23,5 @@ nav:
       - Overview: extensions/index.md
   - Scripting:
       - Overview: scripting/index.md
+  - Releases:
+      - Release Notes: releases/index.md
