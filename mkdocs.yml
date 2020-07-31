@@ -8,6 +8,9 @@ theme:
     - tabs
 repo_url: https://github.com/micronode/whistlepost
 repo_name: micronode/whistlepost
+google_analytics:
+  - UA-402774-12
+  - auto
 extra:
   social:
     - icon: fontawesome/brands/github
