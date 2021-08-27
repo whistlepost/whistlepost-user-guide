@@ -19,13 +19,13 @@
 [JSON-LD]: https://json-ld.org
 [Opengraph]: http://ogp.me
 
-## Introduction
+## Overview
 
-Whistlepost is a content-first web design platform that builds upon existing technologies and standards to offer a unique approach to website management. The _content_ of a Whistlepost site consists of site structure, page copy and semantic metadata, which together convey the site's strategy and purpose. Visual layout and theming are secondary concerns with Whistlepost, as they can often become a distraction from the original goals and intentions of the site.
+Whistlepost is a content-first web design platform that builds upon existing technologies and standards to offer a unique approach to website management. The _content_ of a Whistlepost site consists of site structure, page copy and semantic metadata, which together convey the site's strategy and purpose. Visual layout and theming are secondary concerns with Whistlepost, as they can often become a distraction from the original goals and intention of the site.
 
 ## Content-first
 
-Whistlepost is designed to support just about any form of content through customization, however out of the box content structure is based loosely on Schema.org metadata. Schema.org is a collaboration between many prominent organizations to define common metadata for content published on the World Wide Web. As such this seems to be a good basis for default content metadata in Whistlepost.
+Whistlepost is designed to support just about any form of content through customization, however out-of-the-box content structure is based on Schema.org metadata. Schema.org is a collaboration between many prominent organizations to define common metadata for content published on the World Wide Web. As such this seems to be a good basis for default content metadata in Whistlepost.
 
 A default site content template is provided via a Github repository, and provides a suggested initial site structure along with some default site management metadata. Using this template as a basis provides an extremely easy way to begin designing a complete website with no web design experience necessary. In fact, when paired with Forestry.io, managing site content can be entirely GUI-based without any local checkout of source repositories.
 
