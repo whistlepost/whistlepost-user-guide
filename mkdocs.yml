@@ -22,6 +22,7 @@ extra:
 nav:
   - Home:
       - Introduction: index.md
+      - Content Management: content.md
       - Authoring: author.md
       - Publishing: publish.md
   - Extensions:
