@@ -4,6 +4,7 @@
 [template engines]: https://sling.apache.org/documentation/bundles/scripting.html
 [content management]: https://sling.apache.org/documentation/bundles.html#resource-providers
 
+[Schema.org]: https://schema.org
 [Jekyll]: https://jekyllrb.com/
 [Wordpress]: https://wordpress.org/
 [Adobe Experience Manager]: https://en.wikipedia.org/wiki/Day_Software
@@ -28,6 +29,10 @@ Whistlepost is a content-first web design platform that builds upon existing tec
 Whistlepost is designed to support just about any form of content through customization, however out-of-the-box content structure is based on Schema.org metadata. Schema.org is a collaboration between many prominent organizations to define common metadata for content published on the World Wide Web. As such this seems to be a good basis for default content metadata in Whistlepost.
 
 A default site content template is provided via a Github repository, and provides a suggested initial site structure along with some default site management metadata. Using this template as a basis provides an extremely easy way to begin designing a complete website with no web design experience necessary. In fact, when paired with Forestry.io, managing site content can be entirely GUI-based without any local checkout of source repositories.
+
+### Schema.org
+
+All Whistlepost content is compliant with a corresponding [Schema.org] type, making it trivial to include metadata in published content. [Schema.org] metadata provides the benefit of improved Search Engine Optimization (SEO), maximising the reach to your potential target audience.
 
 ### Forestry.io
 
