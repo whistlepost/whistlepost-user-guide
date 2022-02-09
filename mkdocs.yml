@@ -6,8 +6,8 @@ theme:
   logo: images/logo-50.png
   features:
     - tabs
-repo_url: https://github.com/micronode/whistlepost
-repo_name: micronode/whistlepost
+repo_url: https://github.com/whistlepost/whistlepost
+repo_name: whistlepost/whistlepost
 google_analytics:
   - UA-402774-12
   - auto
