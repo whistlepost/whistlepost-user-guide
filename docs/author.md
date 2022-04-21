@@ -1,4 +1,24 @@
-# Authoring Content
+# Digital Content Authoring
+This page outlines how content authoring is supported with Whistlepost.
+
+## Overview
+
+Digital content authoring is primarily focused on managing site content without concern for how the content is displayed on the live site. A content author will make use of the provided templates to populate content that combined with styling and appearance to render the final site.
+
+Whistlepost content is a collection of JSON documents arranged in a hierarchical structure that typically represents the published website structure. For example, if you have a collection of articles published at `http://example.com/articles/` then you might have the JSON for those articles under `/content/articles/`. Each JSON document will contain the metadata required to render the published content, including a reference to the intended page template to be used for rendering:
+
+```json
+{
+  "title": "My Whistlepost Site",
+  "sling:resourceType": "wp/page/index",
+  "show_advanced_settings": false,
+  "jcr:primaryType": "nt:unstructured",
+  "description": "",
+  "author": ""
+}
+```
+
+Whistlepost provides some default templates for content, however ultimately you can design content templates to match just about any structure that you require.
 
 ## Editors
 
