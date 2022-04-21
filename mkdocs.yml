@@ -25,6 +25,8 @@ nav:
       - Content Management: content.md
       - Authoring: author.md
       - Publishing: publish.md
+      - Models: models.md
+      - Templates: templates.md
   - Extensions:
       - Overview: extensions/index.md
   - Releases:
